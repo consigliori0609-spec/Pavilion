@@ -91,7 +91,42 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2----",
+      "id": "2---",
+      "name": "Вид на интерьер",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 4000,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "3----",
       "name": "Вид на открытую террасу",
       "levels": [
         {
@@ -124,65 +159,12 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.1156563049417976,
-          "pitch": 0.09914112863793356,
+          "yaw": 0.01914557130082173,
+          "pitch": 0.6707318745843782,
           "rotation": 0,
-          "target": "0----1"
-        },
-        {
-          "yaw": -1.2858808110643878,
-          "pitch": 0.1161361252649975,
-          "rotation": 0,
-          "target": "1----2"
-        },
-        {
-          "yaw": -0.04187219010443677,
-          "pitch": 0.4304198393390877,
-          "rotation": 6.283185307179586,
-          "target": "2----"
-        },
-        {
-          "yaw": 3.0610098852958805,
-          "pitch": 0.33634294325294434,
-          "rotation": 0,
-          "target": "3---"
+          "target": "3----"
         }
       ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3---",
-      "name": "Вид на интерьер",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 4000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     }
   ],
